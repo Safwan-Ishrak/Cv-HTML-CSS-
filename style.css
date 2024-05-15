@@ -1,0 +1,186 @@
+:root{
+    --bodycolor:#dfe6e9;
+    --backgroundcolor:#dff9fb;
+    --Titlecolor:#01a3a4;
+    --Textcolor:#1e272e;
+    --bordercolor:#95a5a6;
+    
+    --fontone:"Outfit", sans-serif;
+    --fonttwo:"Roboto", sans-serif;
+    --fontthree:"Poppins", sans-serif;
+
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+body{
+    font-size: 12px;
+    font-family:var(--fonttwo);
+    background-color: var(--bodycolor);
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--fontone);
+    color: var(--Titlecolor);
+}
+img{
+    max-width: 100%;
+}
+.section{
+    width: 85%;
+    /* height: 100%; */
+    background-color: var(--backgroundcolor);
+    margin: 0 auto;
+}
+.section header{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px 0 15px 0;
+    border-bottom: 3px solid black;
+    margin-top: 0;
+}
+.section header .head1{
+    display: flex;
+}
+header .head1 img{
+    width: 90px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+header .head1 .h25{
+    margin-top: 25px;
+}
+header .head1 h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+header .head1 h4{
+    font-weight: 600;
+}
+header .head2{
+    margin-top: 30px;
+    color: var(--Titlecolor);
+    font-weight: 500;
+    line-height: 18px;
+}
+
+main{
+    margin: 15px;
+
+}
+main .per{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bordercolor);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+main .per h3{
+    flex-basis: 30%;
+    font-size:15px;
+    font-weight: 600;
+}
+main .per .per_right{
+    flex-basis: 65%;
+}
+main .per .per_right p span{
+    font-weight: bold;
+    color: var(--Titlecolor);
+}
+main .edu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bordercolor);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+main .edu h3{
+    flex-basis: 30%;
+    font-size:15px;
+    font-weight: 600;
+} 
+main .edu .edu_right{
+    flex-basis: 65%;
+}
+main .edu .edu_right .ssc,.hsc,.bsc{
+    margin-bottom: 5px;
+}
+main .edu .edu_right h4{
+    font-weight: 500;
+    font-size: 12px;
+}
+main .skills{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bordercolor);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+main .skills h3{
+    flex-basis: 30%;
+    font-size:15px;
+    font-weight: 600;
+}
+main .skills .skills_right{
+    flex-basis: 65%;
+}
+main .skills .skills_right h4{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+main .skills .skills_right ul{
+    padding-left: 13px;
+    margin-bottom: 10px;
+}
+main .hon{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bordercolor);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+main .hon h3{
+    flex-basis: 30%;
+    font-size:15px;
+    font-weight: 600;
+}
+main .hon .hon_right{
+    flex-basis: 65%;
+    padding-left: 13px;
+}
+footer{
+    background-color: var(--Textcolor);
+    color: #ddd;
+    text-align: center;
+    margin: 0 15px 10px 15px;
+    padding: 10px;
+}
+footer .f1{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+footer .f1 a{
+    color: #ddd;
+    font-size: 15px;
+}
+footer p{
+    color: white;
+}
